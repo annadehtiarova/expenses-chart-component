@@ -1,0 +1,137 @@
+body{
+    font-family: 'DM Sans';
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.gap-4{
+    gap: 4px;
+}
+
+.gap-8{
+    gap: 8px;
+}
+.gap-16{
+    gap: 16px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.baseline{
+    justify-content: baseline;
+}
+
+.bottom-align{
+    align-items: last baseline;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.center-align{
+    align-items: center;
+}
+
+.top-content{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 16px;
+    color: #fff;
+}
+
+.padding-18{
+    padding: 18px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.padding-0{
+    margin: 0;
+}
+
+.text-12{
+    font-size: 12px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.color-grey{
+    color: #a9a8a8;
+}
+
+.filled-circle{
+    background-color: hsl(25, 47%, 15%);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.top-content{
+    position: relative;
+}
+.empty-circle{
+    border: 2px solid #fff;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    position: absolute;
+    left: 420px;
+}
+
+.bottom-content{
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.bar{
+    width: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 2px;
+    height: 100%; 
+    overflow: hidden;
+    transform: scaleY(2.5);
+    transform-origin: bottom;  
+}
+
+.bar-chart{
+    height: 170px;
+    padding-bottom: 32px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+    width: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 1000;
+}
+

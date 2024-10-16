@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body class="flex-column">
+    <div class="container flex-column gap-16">
+        
+        <div class="top-content flex-row space-between center-align padding-18">
+            <div class="text flex-column gap-8">
+                <p class="margin-0 padding-0 text-12">My balance</p>
+                <h2 class="margin-0 padding-0">$921.48</h2>
+            </div>
+            <div class="circles flex-row">
+                <div class="empty-circle"></div>
+                <div class="filled-circle"></div>
+            </div>    
+        </div>
+        <div class="bottom-content flex-column gap-32 padding-18">
+            <div class="tooltip"></div>
+            <h2>Spending - Last 7 Days</h2>
+            <div class="bar-chart flex-row gap-16 flex-end">
+                <div class="flex-column center-align gap-8">
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">mon</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">tue</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">wed</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">thu</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">fri</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">sat</p>
+                </div>
+                <div class="flex-column center-align gap-8">  
+                    <div class="bar"></div>
+                    <p class="margin-0 padding-0">sun</p>
+                </div>
+                
+            </div>
+            <div class="total flex-row space-between baseline bottom-align">
+                <div class="total-left flex-column gap-8">
+                    <p class="margin-0 padding-0 color-grey">Total this month</p>
+                    <h1 class="margin-0 padding-0">$478.33</h1>
+                </div>
+                <div class="total-right flex-column gap-4">
+                    <p class="margin-0 padding-0 bold">+2.4%</p>
+                    <p class="margin-0 padding-0 color-grey">from last month</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <script src="script.js" type="module"></script>
+    
+</body>
+</html>
