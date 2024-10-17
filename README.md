@@ -23,6 +23,9 @@ My challenge was to build out the Expenses chart component and get it looking as
 <img width="1699" alt="Screenshot 2024-10-17 at 10 18 10" src="https://github.com/user-attachments/assets/df11bde0-d607-460b-819b-5034b1df4fa6">
 <br>
 <br>
+<img width="1701" alt="Screenshot 2024-10-17 at 14 18 31" src="https://github.com/user-attachments/assets/aaa7a884-fed5-415d-9c34-50c0fa76cdf4">
+<br>
+<br>
 I was provided with a Figma file.
 <img width="1095" alt="Screenshot 2024-10-17 at 10 20 00" src="https://github.com/user-attachments/assets/db726361-4b18-413e-94d5-c4d945308ff4">
 <br>
