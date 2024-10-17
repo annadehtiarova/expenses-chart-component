@@ -132,7 +132,7 @@ body{
     display: none;
     position: absolute;
     font-size: 14px;
-    background-color: #000;
+    background-color: hsl(25, 47%, 15%);
     color: #fff;
     padding: 8px;
     border-radius: 4px;
