@@ -1,6 +1,15 @@
+:root {
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+}
+
 body{
     font-family: 'DM Sans';
-    background-color: hsl(27, 66%, 92%);
+    background-color: var(--cream);
     height: 100vh;
     width: 100vw;
     padding: 0;
@@ -58,7 +67,7 @@ body{
 }
 
 .top-content{
-    background-color: hsl(10, 79%, 65%);
+    background-color: var(--soft-red);
     border-radius: 16px;
     color: #fff;
 }
@@ -83,16 +92,16 @@ body{
     font-weight: bold;
 }
 
-.color-grey{
-    color: #a9a8a8;
+.color-brown{
+    color: var(--medium-brown);
 }
 
 .color-dark-brown{
-    color: hsl(25, 47%, 15%);
+    color: var(--dark-brown);
 }
 
 .filled-circle{
-    background-color: hsl(25, 47%, 15%);
+    background-color: var(--dark-brown);
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -117,7 +126,7 @@ body{
 
 .bar{
     width: 52px;
-    background-color: hsl(10, 79%, 65%);
+    background-color: var(--soft-red);
     border-radius: 2px;
     height: 100%; 
     overflow: hidden;
@@ -137,7 +146,7 @@ body{
     display: none;
     position: absolute;
     font-size: 14px;
-    background-color: hsl(25, 47%, 15%);
+    background-color: var(--dark-brown);
     color: #fff;
     padding: 8px;
     border-radius: 4px;
