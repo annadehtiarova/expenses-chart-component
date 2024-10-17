@@ -86,6 +86,10 @@ body{
     color: #a9a8a8;
 }
 
+.color-dark-brown{
+    color: hsl(25, 47%, 15%);
+}
+
 .filled-circle{
     background-color: hsl(25, 47%, 15%);
     width: 40px;
@@ -111,7 +115,7 @@ body{
 }
 
 .bar{
-    width: 50px;
+    width: 52px;
     background-color: hsl(10, 79%, 65%);
     border-radius: 2px;
     height: 100%; 
@@ -168,6 +172,6 @@ body{
     }
 
     .empty-circle{
-        left: 240px;
+        left: 270px;
     }
 }
