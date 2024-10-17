@@ -14,20 +14,20 @@ This is [my solution](https://annadehtiarova.github.io/expenses-chart-component/
 My challenge was to build out the Expenses chart component and get it looking as close to the design as possible.
 <br>
 <br>
-<img width="1700" alt="Screenshot 2024-10-17 at 14 38 44" src="https://github.com/user-attachments/assets/51abe475-c6aa-4782-8dee-7c595f1d731d">
+<img width="1697" alt="Screenshot 2024-10-17 at 14 49 45" src="https://github.com/user-attachments/assets/7a43525b-6d09-4ad1-b9d9-ad1e1024e4f7">
 <br>
 <br>
-<img width="1702" alt="Screenshot 2024-10-17 at 14 39 01" src="https://github.com/user-attachments/assets/c90096e9-d242-43c8-af72-39721e945e67">
+<img width="1702" alt="Screenshot 2024-10-17 at 14 50 08" src="https://github.com/user-attachments/assets/6d7cef65-8b09-404e-a8c7-404b6e7963aa">
 <br>
 <br>
-<img width="1702" alt="Screenshot 2024-10-17 at 14 39 23" src="https://github.com/user-attachments/assets/02ea4066-ad3d-43cc-8eff-dda5d87e15d0">
+<img width="1702" alt="Screenshot 2024-10-17 at 14 50 33" src="https://github.com/user-attachments/assets/0abbdb5a-7023-4207-bd92-c35972307ffb">
 <br>
 <br>
 <img width="1703" alt="Screenshot 2024-10-17 at 14 39 52" src="https://github.com/user-attachments/assets/7312e053-bc9b-436c-a8a9-2b5146c177b7">
 <br>
 <br>
 I was provided with a Figma file.
-<img width="1095" alt="Screenshot 2024-10-17 at 10 20 00" src="https://github.com/user-attachments/assets/db726361-4b18-413e-94d5-c4d945308ff4">
+<img width="1705" alt="Screenshot 2024-10-17 at 14 51 33" src="https://github.com/user-attachments/assets/8e182cf3-5e79-4756-a761-f212f919623b">
 <br>
 <br>
 
