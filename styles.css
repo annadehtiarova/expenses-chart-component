@@ -114,12 +114,14 @@ body{
     border-radius: 2px;
     height: 100%; 
     overflow: hidden;
-    transform: scaleY(2.5);
-    transform-origin: bottom;  
+}
+
+.bar:hover{
+    opacity: 0.7;
 }
 
 .bar-chart{
-    height: 170px;
+    height: 180px;
     padding-bottom: 32px;
     border-bottom:1px solid #e5e5e5;
 }
@@ -127,11 +129,12 @@ body{
 .tooltip{
     display: none;
     position: absolute;
-    width: 50px;
+    font-size: 14px;
     background-color: #000;
     color: #fff;
     padding: 8px;
     border-radius: 4px;
     z-index: 1000;
-}
+    transform: translateX(-50%);
 
+}

@@ -29,24 +29,28 @@ const data = [
     }
   ]
 
+const bars = document.querySelectorAll('.bar');
+const tooltip = document.querySelector('.tooltip');
+
 
 function updateBarChart(){
-    const bars = document.querySelectorAll('.bar');
-    const chart = document.querySelector('.bar-chart');
-
     bars.forEach(function(bar, index){
+        const maxAmount = Math.max(...data.map(item => item.amount));
         const item = data[index];
+        bar.style.height = `${item.amount * 3}px`;
+        bar.setAttribute('data-tooltip', "$"+`${item.amount}`);
 
-        bar.style.height = `${item.amount}px`;
-
-        bar.setAttribute('data-tooltip', "$"+`${item.amount}`)
+        if (item.amount === maxAmount) {
+            bar.style.backgroundColor = 'hsl(186, 34%, 60%)'; 
+        } else {
+            bar.style.backgroundColor = 'hsl(10, 79%, 65%)';
+        }
         
     })
 
     
     bars.forEach(function(bar){
         bar.addEventListener('mouseover', showTooltip);
-        bar.addEventListener('mousemove', (event) => moveTooltip(event, chart));
         bar.addEventListener('mouseout', hideTooltip);
     });
 
@@ -55,19 +59,21 @@ function updateBarChart(){
 updateBarChart(data);
 
 function showTooltip(event) {
-    const tooltip = document.querySelector('.tooltip');
-    tooltip.textContent = event.target.getAttribute('data-tooltip');
+    const bar = event.currentTarget;
+    const barRect = bar.getBoundingClientRect();
+    const containerRect = document.querySelector('.bar-chart').getBoundingClientRect();
+
+    tooltip.textContent = bar.getAttribute('data-tooltip');
+
+    const tooltipX = barRect.left + barRect.width / 2;
+    const tooltipY = barRect.top - 40; 
+
+    tooltip.style.left = `${tooltipX}px`;
+    tooltip.style.top = `${tooltipY}px`;
     tooltip.style.display = 'block';
 }
 
-function moveTooltip(event, chart) {
-    const tooltip = document.querySelector('.tooltip');
-    tooltip.style.left = `${event.pageX + 10}px`; 
-    tooltip.style.top = `${event.pageY + 10}px`;
-}
-
-
-function hideTooltip() {
-    const tooltip = document.querySelector('.tooltip');
+function hideTooltip() {  
     tooltip.style.display = 'none';
 }
+
